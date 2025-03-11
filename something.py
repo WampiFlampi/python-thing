@@ -1,4 +1,4 @@
-name = input('Enter your name: ')
+name = input('Enter your silly name: ')
 
 #some other input
 
