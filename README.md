@@ -5,4 +5,4 @@ For big ideas
 Thomas Hanson, Dylan Berutti, Leo Lam
 
 # Functionality
-...
+Gets input and does something!
