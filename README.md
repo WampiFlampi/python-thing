@@ -1,8 +1,8 @@
 # python-thing
-For a class
+For big ideas
 
+# Created by
+Thomas Hanson, Dylan Berutti, Leo Lam
 
-# does something
-
-
-# but what?
+# Functionality
+...
