@@ -1,3 +1,5 @@
+import webbrowser as wb
+
 def getInt():
     try:
        return int(input('Enter an integer: '))
@@ -6,20 +8,16 @@ def getInt():
         return getInt()
 
 name = input('Enter your name: ')
-print("Hi, " + name + "!\n")
+print('Hi, ' + name + '!\n')
 
 #some other input
-a = abs(getInt()) + 50
-b = abs(getInt()) + 50
+i = (abs(getInt()) % 10) + 1
 
 #do something with other input
 
-print('Number loading...')
-
-i = 0
-for k in range(0, a):
-    for s in range(0, b * k):
-       for l in range(0, s * k):
-           i += l
-print(i)
+try:
+    for _ in range(i):
+        wb.open('http://bit.ly/424bcSp', new=1)
+except:
+    print('Failed')
 
